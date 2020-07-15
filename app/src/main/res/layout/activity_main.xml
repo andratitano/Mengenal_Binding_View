@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHelloMastah"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome Mastah!"
+        android:textAlignment="center"
+        android:textColor="#C36161"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnKotlinSynthetic"
+        android:text="Kotlin Synthetic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#C1B7B7"
+        android:textColor="#631A1A"/>
+    <Button
+        android:id="@+id/btnFindById"
+        android:text="Find View By Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#C1B7B7"
+        android:textColor="#631A1A"/>
+    <Button
+        android:id="@+id/btnViewBind"
+        android:text="View Binding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="#C1B7B7"
+        android:textColor="#631A1A"/>
+    
+
+
+
+</LinearLayout>
